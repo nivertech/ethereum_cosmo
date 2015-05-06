@@ -1,7 +1,10 @@
 # ethereum_cosmo
-Vagrant environment for Ethereum geth CLI + Cosmo IDE
 
-Cosmo IDE is a Meteor-based dapp for building and vetting Solidity contracts.
+Vagrant environment for Ethereum Frontier geth CLI + Cosmo IDE
+
+Cosmo Web IDE is a Meteor-based dapp for building and vetting Solidity contracts.
+
+written by Nick Dodson (twitter @IAmNickDodson):
 
 http://cosmo.to/
 
@@ -9,6 +12,14 @@ https://twitter.com/CosmoUp
 
 http://meteor-dapp-cosmo.meteor.com/
 
+https://github.com/SilentCicero/meteor-dapp-cosmo
+
+
+TUTORIAL: Alex Van de Sande’s new guide to Frontier: 
+- https://docs.google.com/document/d/1fupguDpg-pB-EfBE7yqPEAtYQzXOo8iTd8rzIVggCs0/edit
+
+
+------------------------------------------------------------------------
 
 ## How to install
 
@@ -121,4 +132,8 @@ NOTE: instractions assume Ubuntu 12.04 LTS x86_64 host OS (modify for your host 
 9.  Open following URL in your browser "http://localhost:3000"
 
 10. Click "Connect" button in the right upper corner
+
+11. Go thru this tutorial: 
+    Alex Van de Sande’s new guide to Frontier: 
+	- https://docs.google.com/document/d/1fupguDpg-pB-EfBE7yqPEAtYQzXOo8iTd8rzIVggCs0/edit
 
