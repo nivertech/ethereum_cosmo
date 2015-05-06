@@ -14,6 +14,14 @@ http://meteor-dapp-cosmo.meteor.com/
 
 https://github.com/SilentCicero/meteor-dapp-cosmo
 
+------------------------------------------------------------------------
+
+Ethereum install fest meetup
+- http://www.meetup.com/Ethereum-Tel-Aviv/events/221993693/
+
+Slides (by Kobi Gurkan):
+- https://docs.google.com/presentation/d/1vBViqLBR0bD3hOY_SgQUwMFj9Nq8eCgggCmlx6_Tz04/edit?usp=sharing
+
 
 TUTORIAL: Alex Van de Sande’s new guide to Frontier: 
 - https://docs.google.com/document/d/1fupguDpg-pB-EfBE7yqPEAtYQzXOo8iTd8rzIVggCs0/edit
