@@ -89,6 +89,31 @@ NOTE: instractions assume Ubuntu 12.04 LTS x86_64 host OS (modify for your host 
 	Address: {bf1..........................76f}
 	
 	# NOT SURE:  --rpccorsdomain='*' is needed
-	geth --rpc --rpcport='3000' --rpcaddr='0.0.0.0' --rpccorsdomain='*' --datadir ./data_meetup --bootnodes enode://37e74db654b6ebe91aec9799eef26aed2578dbc9351adc8cdab54d63943ee70da736ee88000257735e71c74d7ea229b87b2971a7a8de5b83e5848b58d972503f@192.168.30.198:30303 --networkid 198804 console 2>ethereum.log
+	geth --rpc --rpcport='8080' --rpcaddr='0.0.0.0' --rpccorsdomain='*' \
+	     --datadir ./data_meetup \
+	     --bootnodes enode://37e74db654b6ebe91aec9799eef26aed2578dbc9351adc8cdab54d63943ee70da736ee88000257735e71c74d7ea229b87b2971a7a8de5b83e5848b58d972503f@192.168.30.198:30303 \
+	     --networkid 198804 \
+	     console 2>ethereum.log
 
 	```
+
+	Example geth console command you can test:
+
+	``` javascript
+	> eth.blockNumber
+	2934
+
+	> eth.accounts
+	['0xef.......................85' ]
+	
+	> eth.accounts[0]
+	'0xef......................85'
+
+	>eth.getBalance(eth.accounts[0])
+	'0'
+	```
+
+9.  Open following URL in your browser "http://localhost:3000"
+
+10. Click "Connect" button in the right upper corner
+

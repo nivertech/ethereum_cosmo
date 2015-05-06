@@ -27,6 +27,7 @@ COSMO_TAR=${COSMO_BRANCH_OR_TAG}.tar.gz
 wget -q https://github.com/SilentCicero/meteor-dapp-cosmo/archive/${COSMO_TAR}
 tar xzf ${COSMO_TAR}
 rm ${COSMO_TAR}
+mv meteor-dapp-cosmo-${COSMO_BRANCH_OR_TAG}/ meteor-dapp-cosmo
 
 echo ""
 echo "start geth and meteor, then open in your browser http://localhost:3000"
