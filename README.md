@@ -1,9 +1,14 @@
 # ethereum_cosmo
 Vagrant environment for Ethereum geth CLI + Cosmo IDE
 
-Meteor dapp for building and vetting solidity contracts.
+Cosmo IDE is a Meteor-based dapp for building and vetting Solidity contracts.
 
 http://cosmo.to/
+
+https://twitter.com/CosmoUp
+
+http://meteor-dapp-cosmo.meteor.com/
+
 
 ## How to install
 
