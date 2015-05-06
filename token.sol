@@ -23,4 +23,4 @@ contract token {
         return balances[account];
     }
 }
-       
+ 
