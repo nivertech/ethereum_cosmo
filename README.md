@@ -52,16 +52,18 @@ NOTE: instractions assume Ubuntu 12.04 LTS x86_64 host OS (modify for your host 
     ``` bash
     mkdir -p ~/ws
     cd ~/ws
-    git clone git@github.com:nivertech/ethereum_devenv.git
-    cd ethereum_devenv
+    git clone git@github.com:nivertech/ethereum_cosmo.git
+    cd ethereum_cosmo
     ```    
 
-6. Provision devenv:
+6. Provision VM:
     ``` bash
     vagrant up
     ```
 
-7. This will take some time ~5 min (depending on your network), go make coffee and when return:
+7. This will take some time ~5 min (depending on your network).
+
+8. Run Cosmo IDE meteor app:
     ``` bash
 	vagrant ssh
 

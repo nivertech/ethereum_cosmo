@@ -24,7 +24,7 @@ curl https://install.meteor.com/ | sh
 # download Cosmo IDE source code
 COSMO_BRANCH_OR_TAG='master'
 COSMO_TAR=${COSMO_BRANCH_OR_TAG}.tar.gz
-wget https://github.com/SilentCicero/meteor-dapp-cosmo/archive/${COSMO_TAR}
+wget -q https://github.com/SilentCicero/meteor-dapp-cosmo/archive/${COSMO_TAR}
 tar xzf ${COSMO_TAR}
 rm ${COSMO_TAR}
 
